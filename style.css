@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+/* home page design */
+#logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.logo_text{
+    color: rgb(22, 22, 150);
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-bottom: 0;
+}
+nav{
+    display:  flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+.logos{
+    display: flex;
+}
+.list{
+     padding: 17px;
+    margin-bottom: 0px;
+}
+.list a{
+  padding: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'Baloo Bhai 2', cursive;
+  border-radius: 10px;
+}
+.list a:hover{
+    background: white;
+    color:  rgb(22, 22, 150);
+}
+.main{
+    background-image: url(image/doc1.jpg);
+    height: 100vh;
+    top: 10vh;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    justify-items: center;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.main{
+    opacity: .8;
+}
+
+#text_h{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    font-size: 4rem;
+    color:  rgb(22, 22, 150);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+footer{
+    background-color: aquamarine;
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding-top: 5px;
+    color:  rgb(22, 22, 150);
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* page1 css */
+.outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+#listbox{
+    width: 200px;
+    outline: none;
+}
+.btn{
+    background-color: rgb(59, 24, 185);
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(25, 123, 204);
+    color: whitesmoke;
+}
+.Doctor_list{
+    display: flex;
+
+}
+/* log in */
+.input_log{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+ 
+}
+.input_log input{
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+/* sign up */
+
+/* admin  */
+.doc_main{
+    display: block;
+    position: absolute;
+    top: 40vh;
+    left: 41vw;
+    text-align: center;
+    /* justify-content: center; */
+    height: 250px;
+    margin: auto;
+}
+.doc_main button{
+    margin: 15px;
+    padding: 10px;
+}
+
+/* doctor_add*/
+.outer1{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 95vh;
+    margin: auto;
+}
+.doc_list{
+    width: 500px;
+    margin-left: 50px;
+    color: rgb(22, 22, 150);
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+}
+.doc_list ul li{
+    margin-left: 0;
+}
+#textarea1{
+    outline: none;
+}
+.doc_out1{
+    text-align: center;
+    align-items: center;
+}
+.applist{
+    margin: 20px;
+}
+.btn1{
+    background-color: brown;
+}
+.btn1:hover{
+    background-color: red;
+}
